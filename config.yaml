@@ -15,6 +15,12 @@ dotfiles:
   f_tmux.conf:
     src: tmux.conf
     dst: ~/.tmux.conf
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+  f_gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
 profiles:
   juan-hp:
     dotfiles:
@@ -22,3 +28,5 @@ profiles:
     - f_dir_colors
     - f_alacritty.yml
     - f_tmux.conf
+    - f_bashrc
+    - f_gitconfig
