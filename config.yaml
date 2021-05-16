@@ -6,7 +6,19 @@ dotfiles:
   f_vimrc:
     src: vimrc
     dst: ~/.vimrc
+  f_dir_colors:
+    src: dir_colors
+    dst: ~/.dir_colors
+  f_alacritty.yml:
+    src: config/alacritty/alacritty.yml
+    dst: ~/.config/alacritty/alacritty.yml
+  f_tmux.conf:
+    src: tmux.conf
+    dst: ~/.tmux.conf
 profiles:
   juan-hp:
     dotfiles:
     - f_vimrc
+    - f_dir_colors
+    - f_alacritty.yml
+    - f_tmux.conf
