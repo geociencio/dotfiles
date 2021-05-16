@@ -1,0 +1,3 @@
+alias mega="cd MEGA"
+alias gh='history|grep'
+alias aptuu='sudo apt update && apt list --upgradable && sudo apt upgrade'
