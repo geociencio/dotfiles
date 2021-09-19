@@ -1,15 +1,16 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
+# ~/.bashrc: ejecutado por bash (1) para shells que no son de inicio de sesión.
+# ver /usr/share/doc/bash/examples/startup-files (en el paquete bash-doc)
+# para ejemplos
 
-# If not running interactively, don't do anything
+# Si no se ejecuta de forma interactiva, no haga nada
 case $- in
     *i*) ;;
       *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
+# no ponga líneas duplicadas o líneas que comiencen con un espacio en el historial.
+# Ver bash (1) para más opciones
+
 HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
